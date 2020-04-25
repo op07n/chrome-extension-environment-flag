@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
 
     steps:
@@ -22,5 +22,11 @@ jobs:
       with:
         node-version: '10.x'
     - run: yarn install
-    - run: yarn development # unminified
+    - run: yarn production
+    
+    - name: Upload artifact (Windows)
+      uses: actions/upload-artifact@v1
+      with:
+        name: chrome-extension-environment-flag
+        path: .
  
