@@ -1,5 +1,7 @@
 Duplicate of https://github.com/michaeldscherr/chrome-extension-environment-flag
 
+see  https://dev.to/michaeldscherr/building-a-simple-chrome-extension-1mal
+
 # Simple Chrome Extension
 
 ## Disclaimer
